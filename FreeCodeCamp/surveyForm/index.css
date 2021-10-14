@@ -1,0 +1,44 @@
+
+:root {
+    --color-white: #f3f3f3;
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+    --color-green: #37af65;
+  }
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--color-white);
+    margin: 0;
+    background-color: #685f9f;
+}
+
+.text-center{
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+#survey-form{
+    width: 50%;
+    margin: auto;
+}
+#form-table{
+    margin:20px;
+}
+
+input,select {
+    display: block;
+}
+
+label{
+    font-size: 1.3rem;
+}
+
+
+form{
+    padding: 2.5rem;
+    background-color: rgb(39, 35, 63);
+}
